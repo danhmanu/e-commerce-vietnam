@@ -1,0 +1,1 @@
+document.addEventListener('click',function(e){var b=e.target.closest('.tlsp-thumb');if(!b)return;var m=document.getElementById('tlsp-main');if(!m)return;m.removeAttribute('srcset');m.removeAttribute('sizes');m.src=b.getAttribute('data-full');document.querySelectorAll('.tlsp-thumb').forEach(function(t){t.classList.toggle('is-active',t===b);});});
