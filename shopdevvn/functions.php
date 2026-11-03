@@ -728,9 +728,7 @@ function devvn_woocommerce_structured_data_breadcrumblist($markup, $breadcrumbs)
 }
 
 /*
- * Author levantoan.com
- * Hướng dẫn chặn tính năng so sánh giá của trình duyệt cốc cốc
- * https://levantoan.com/huong-dan-chan-tinh-nang-so-sanh-gia-cua-trinh-duyet-coccoc-tren-website-wordpress-su-dung-woocommerce/
+ * Chặn tính năng so sánh giá của trình duyệt Cốc Cốc (dữ liệu có cấu trúc WooCommerce)
  * */
 add_filter('woocommerce_structured_data_product_offer','devvn_woocommerce_structured_data_product_offer', 10, 2);
 function devvn_woocommerce_structured_data_product_offer($markup_offer, $product){
@@ -876,7 +874,6 @@ function devvn_wpseo_canonical($canonical) {
 add_filter('xmlrpc_enabled', '__return_false');
 
 /*
-* Author: Le Van Toan - https://levantoan.com
 * Đoạn code thu gọn nội dung bao gồm cả nút xem thêm và thu gọn lại sau khi đã click vào xem thêm
 */
 add_action('wp_footer','devvn_readmore_flatsome');

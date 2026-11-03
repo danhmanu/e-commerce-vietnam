@@ -5,7 +5,7 @@ class DevVN_Videos_Category extends WP_Widget {
 			'classname' => 'videos_category_widget',
 			'description' => 'Hiển thị videos liên quan của taxonomy.',
 		);
-		parent::__construct( 'videos_category_widget', '[DevVN] Videos Category', $widget_ops );
+		parent::__construct( 'videos_category_widget', '[Tiên Lập] Video theo danh mục', $widget_ops );
 	}
 	public function widget( $args, $instance ) {
 		echo $args['before_widget'];

@@ -5,7 +5,7 @@ class DevVN_News_Category extends WP_Widget {
 			'classname' => 'news_category_widget',
 			'description' => 'Hiển thị tin tức liên quan của taxonomy.',
 		);
-		parent::__construct( 'news_category_widget', '[DevVN] News Category', $widget_ops );
+		parent::__construct( 'news_category_widget', '[Tiên Lập] Tin tức theo danh mục', $widget_ops );
 	}
 	public function widget( $args, $instance ) {
 		echo $args['before_widget'];

@@ -6,7 +6,7 @@ class NewsNoibat_Widget extends WP_Widget {
 			'classname' => 'newsnoibat_widget',
 			'description' => 'Chọn tin tức nổi bật để hiển thị.',
 		);
-		parent::__construct( 'newsnoibat_widget', '[DevVN] Tin tức nổi bật', $widget_ops );
+		parent::__construct( 'newsnoibat_widget', '[Tiên Lập] Tin tức nổi bật', $widget_ops );
 	}
 	public function widget( $args, $instance ) {
 		echo $args['before_widget'];

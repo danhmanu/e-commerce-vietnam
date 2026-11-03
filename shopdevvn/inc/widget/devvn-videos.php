@@ -102,7 +102,7 @@ class WP_Widget_Recent_Videos_Custom_SVL extends WP_Widget {
 
 	public function __construct() {
 		$widget_ops = array('classname' => 'widget_recent_entries_svl', 'description' => __( "Your site&#8217;s most recent Videos.") );
-		parent::__construct('recent-videos-svl', __('[DevVN] Recent Videos'), $widget_ops);
+		parent::__construct('recent-videos-svl', __('[Tiên Lập] Video mới'), $widget_ops);
 		$this->alt_option_name = 'widget_recent_entries_svl';
 
 		add_action( 'save_post', array($this, 'flush_widget_transient') );

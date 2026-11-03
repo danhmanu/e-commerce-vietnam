@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"Project-Id-Version: DevVN\n"
+"Project-Id-Version: Tiên Lập\n"
 "POT-Creation-Date: 2019-09-07 22:05+0700\n"
 "PO-Revision-Date: 2019-09-07 19:55+0700\n"
 "Last-Translator: \n"
@@ -646,8 +646,7 @@ msgstr ""
 
 #: inc/copyright/copyright_svl.php:50
 msgid ""
-"Website được phát triển bởi <a href=\"http://devvn.com\" target=\"_blank"
-"\">DevVN Team!</a>"
+"Website Dịch Vụ Kỹ Thuật Tiên Lập"
 msgstr ""
 
 #: inc/copyright/copyright_svl.php:75
@@ -786,7 +785,7 @@ msgid "The most viewed posts on your site"
 msgstr ""
 
 #: inc/widget/devvn-mostviewbaw.php:9
-msgid "[DevVN] Most Viewed Posts With Thumbnail"
+msgid "[Tiên Lập] Bài xem nhiều"
 msgstr ""
 
 #: inc/widget/devvn-mostviewbaw.php:34
@@ -843,7 +842,7 @@ msgid "Your site&#8217;s most recent Posts Custom view."
 msgstr ""
 
 #: inc/widget/devvn-recentpostcustoms.php:11
-msgid "[DevVN] Recent Posts Custom view"
+msgid "[Tiên Lập] Bài viết mới"
 msgstr ""
 
 #: inc/widget/devvn-recentpostcustoms.php:35
@@ -948,7 +947,7 @@ msgid "Your site&#8217;s most recent Videos."
 msgstr ""
 
 #: inc/widget/devvn-videos.php:105
-msgid "[DevVN] Recent Videos"
+msgid "[Tiên Lập] Video mới"
 msgstr ""
 
 #: inc/widget/devvn-videos.php:129
@@ -1203,21 +1202,21 @@ msgid "Mô tả sản phẩm"
 msgstr ""
 
 #. Theme Name of the plugin/theme
-msgid "DevVN"
+msgid "Tiên Lập"
 msgstr ""
 
 #. Theme URI of the plugin/theme
-msgid "http://devvn.com"
+msgid "https://thietbiytebenhvien.com/"
 msgstr ""
 
 #. Description of the plugin/theme
-msgid "Theme by DevVn"
+msgid "Giao diện Dịch Vụ Kỹ Thuật Tiên Lập"
 msgstr ""
 
 #. Author of the plugin/theme
-msgid "LeVanToan"
+msgid "Dịch Vụ Kỹ Thuật Tiên Lập"
 msgstr ""
 
 #. Author URI of the plugin/theme
-msgid "https://levantoan.com"
+msgid "https://thietbiytebenhvien.com/gioi-thieu/"
 msgstr ""

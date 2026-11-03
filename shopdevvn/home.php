@@ -5,6 +5,7 @@
 			<div class="page_content">
             <?php
             $page_for_posts = get_option( 'page_for_posts' );
+            if ( $page_for_posts ) echo '<h1 class="title-page">' . esc_html( get_the_title( $page_for_posts ) ) . '</h1>';
             $view_list_category = get_field('view_list_category',$page_for_posts);
             if($view_list_category):
             ?>

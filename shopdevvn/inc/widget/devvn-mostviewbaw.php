@@ -6,7 +6,7 @@ if ( in_array( 'baw-post-views-count/bawpv.php', apply_filters( 'active_plugins'
         function __construct()
         {
             $widget_ops = array('classname' => 'devvn_widget_most_viewed_entries', 'description' => __('The most viewed posts on your site', 'devvn'));
-            parent::__construct('devvn_widget_most_viewed_entries', __('[DevVN] Most Viewed Posts With Thumbnail', 'devvn'), $widget_ops);
+            parent::__construct('devvn_widget_most_viewed_entries', __('[Tiên Lập] Bài xem nhiều', 'devvn'), $widget_ops);
             $this->alt_option_name = 'devvn_widget_most_viewed_entries';
 
             add_action('save_post', array(&$this, 'flush_widget_cache'));

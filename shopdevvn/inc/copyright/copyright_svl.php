@@ -50,49 +50,7 @@ function devvn_update_right_now_text(){
 	return __('Website Dịch Vụ Kỹ Thuật Tiên Lập','devvn');
 }
 
-// Function that outputs the contents of the dashboard widget
-function dashboard_widget_function() {
-		$result = wp_remote_get('https://levantoan.com/feed/');
-    	if (!is_wp_error($result)) {
-	    	if ($result['response']['code'] == 200) {
-	    		$xml = simplexml_load_string($result['body']);
-	    		$rssPosts = $xml->channel;
-	    	?>
-            <div class="rss-widget">
-                <ul>
-                    <?php
-                    foreach ($rssPosts->item as $key=>$rssPost) {
-                        ?>
-                        <li>
-                            <a href="<?php echo (string) $rssPost->link; ?>" target="_blank" class="rsswidget"><?php echo (string) $rssPost->title; ?></a>
-                            <span class="rss-date"><?php echo date('F j, Y', strtotime($rssPost->pubDate)); ?></span>
-                        </li>
-                        <?php
-                    }
-                    ?>
-                    <li>
-                        <hr />
-                        <a href="https://levantoan.com/category/wordpress/" class="wp_svl" target="_blank"><?php _e('Thủ thuật wordpress'); ?></a>
-                        <a href="https://levantoan.com/category/wordpress/woocommerce/" class="woo_svl" target="_blank"><?php _e('Thủ thuật Woocommerce'); ?></a>
-                        <a href="https://levantoan.com/" class="mywweb_svl" target="_blank"><?php _e('My Website'); ?></a>
-                    </li>
-                </ul>
-            </div>
-            <?php
-            }
-    	} else {
-    		echo 'Visit <a href="https://levantoan.com">my website</a>';
-    	} 
-} 
-function register_my_dashboard_widget() {
-	add_meta_box(
-		'latest_news_dashboard_widget',
-		'Latest from LeVanToan.Com',
-		'dashboard_widget_function',
-		'dashboard', 'side', 'default' );	
-	}
-// Tắt widget RSS của tác giả theme (tải levantoan.com mỗi lần mở Bảng tin)
-//add_action( 'wp_dashboard_setup', 'register_my_dashboard_widget' );
+// (Đã bỏ widget RSS của tác giả theme gốc khỏi Bảng tin)
 
 function adminScriptsAndCSS_svl() {
    wp_enqueue_style('themesvl-admin', get_template_directory_uri().'/inc/copyright/admin_svl.css', array(), '1.0'); 
