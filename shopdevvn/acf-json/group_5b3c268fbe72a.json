@@ -1,0 +1,78 @@
+{
+    "key": "group_5b3c268fbe72a",
+    "title": "Tùy chọn sản phẩm",
+    "fields": [
+        {
+            "key": "field_5b3c6eba7a732",
+            "label": "Kiểu chữ giảm giá",
+            "name": "kieu_chu_giam_gia",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "default": "Mặc định (Giảm giá)",
+                "km": "Khuyến mại",
+                "new": "Mới",
+                "gia_soc": "Giá sốc",
+                "custom": "Tùy chỉnh"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "default",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5b3c6fa67a733",
+            "label": "Chữ tùy chỉnh",
+            "name": "text_custom_label",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5b3c6eba7a732",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "product"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "side",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1550463904
+}

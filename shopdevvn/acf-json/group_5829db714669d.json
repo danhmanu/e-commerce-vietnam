@@ -1,0 +1,497 @@
+{
+    "key": "group_5829db714669d",
+    "title": "Cài đặt Woocommerce",
+    "fields": [
+        {
+            "key": "field_5a2c12e435c05",
+            "label": "Ghim sản phẩm nổi bật",
+            "name": "ghim_featured_prod",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.333",
+                "class": "",
+                "id": ""
+            },
+            "message": "Ghim sản phẩm nổi bật lên đầu tiên trong trang category",
+            "default_value": 0,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5a2d089476956",
+            "label": "Hiển thị ảnh ở sản phẩm nổi bật",
+            "name": "view_img_featured",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.333",
+                "class": "",
+                "id": ""
+            },
+            "message": "Hiển thị icon HOT cho sản phẩm nổi bật",
+            "default_value": 0,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5a2d08b776957",
+            "label": "Icon sp nổi bật",
+            "name": "img_is_featured",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.333",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "id",
+            "preview_size": "full",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5827328664953",
+            "label": "Ẩn hiện nút liên hệ",
+            "name": "show_hide_contact_button",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "message": "Ẩn\/Hiện nút liên hệ mua hàng. Chọn contact form 7 khi ấn vào nút liên hệ hiện popup",
+            "default_value": 1,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_582732a964954",
+            "label": "Contact Form 7",
+            "name": "contact_form_7_woo",
+            "type": "post_object",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "wpcf7_contact_form"
+            ],
+            "taxonomy": [],
+            "allow_null": 0,
+            "multiple": 0,
+            "return_format": "id",
+            "ui": 1
+        },
+        {
+            "key": "field_590a064a58578",
+            "label": "Hiển thị giỏ hàng chạy cố định bên tay phải",
+            "name": "show_minicart_right",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5a2e2e4564c7d",
+            "label": "Ẩn giỏ hàng trên header",
+            "name": "has_cart_header",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "message": "Ẩn giỏ hàng trên header",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "Ẩn",
+            "ui_off_text": "Hiện"
+        },
+        {
+            "key": "field_5a013153f3288",
+            "label": "Bật chức năng thêm combo sản phẩm vào giỏ hàng",
+            "name": "enable_combo_tocart",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5a32c76b752df",
+            "label": "Kích hoạt chức năng đồng ý đặt hàng (checkout) khi tổng tiền >=",
+            "name": "enable_checkout_minimum",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "message": "Khi mở chức năng này thì khách chỉ có thể đặt hàng khi tổng tiền mua hàng >= số tiền quy định",
+            "default_value": 0,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5a32c7f2752e0",
+            "label": "Số tiền nhỏ nhất để có thể đặt hàng",
+            "name": "checkout_minimum_price",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 100000,
+            "placeholder": "",
+            "prepend": ">=",
+            "append": "",
+            "min": "",
+            "max": "",
+            "step": ""
+        },
+        {
+            "key": "field_5a32c8ee17a3d",
+            "label": "Tin nhắn khi không đủ điều kiện đặt hàng",
+            "name": "checkout_minimum_price_mess",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Đơn hàng có giá trị tối thiểu % s để có thể tiếp tục đặt hàng, tổng giá trị đơn hàng hiện tại của bạn là %s",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5a2e2f13f949e",
+            "label": "Chức năng hiển thị chữ liên hệ khi không có giá",
+            "name": "enable_text_price_zero",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "message": "Bật hiển thị chữ liên hệ khi không có giá",
+            "default_value": 1,
+            "ui": 0,
+            "ui_on_text": "Ẩn",
+            "ui_off_text": "Hiện"
+        },
+        {
+            "key": "field_5a2e3081f949f",
+            "label": "Nhập chữ  khi không có giá",
+            "name": "text_price_zero",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Liên hệ",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_59a4629d6cbf3",
+            "label": "Hiện thông báo khi checkout",
+            "name": "show_hide_thong_bao_khi_checkout",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5829da3650956",
+            "label": "Thông báo khi checkout",
+            "name": "thong_bao_khi_checkout",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "basic",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_5829da812d902",
+            "label": "Thông báo khi đã thanh toán thành công",
+            "name": "thong_bao_them_khi_da_thanh_toan",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "basic",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_5833292ab23c4",
+            "label": "Thông tin liên hệ ở trang chi tiết sản phẩm",
+            "name": "thong_tin_lienhe_singleproduct",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "<div class=\"contact-detail\">\r\n<ul>\r\n\t<li><span class=\"fa fa-phone\"><\/span><strong>0938.94.1111<\/strong><\/li>\r\n\t<li><span class=\"fa fa-phone\"><\/span><strong>0938.94.1115<\/strong><\/li>\r\n\t<li><span class=\"fa fa-envelope\"><\/span>tech360.com.vn@gmail.com<\/li>\r\n<\/ul>\r\n<\/div>",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "wpautop"
+        },
+        {
+            "key": "field_5825ffed921ba",
+            "label": "Chính sách của shop",
+            "name": "chinh_sach_cua_shop",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "row",
+            "button_label": "Add Row",
+            "sub_fields": [
+                {
+                    "key": "field_58260005921bb",
+                    "label": "Icon",
+                    "name": "icon",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "id",
+                    "preview_size": "full",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
+                },
+                {
+                    "key": "field_58260012921bc",
+                    "label": "Content",
+                    "name": "content",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "maxlength": "",
+                    "rows": "",
+                    "new_lines": "wpautop"
+                },
+                {
+                    "key": "field_5826029a4c9ba",
+                    "label": "Link to",
+                    "name": "linkto",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5a2e3c392c0da",
+            "label": "Ẩn toàn bộ tính năng bán hàng trên web",
+            "name": "hidden_shopping",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "Ẩn toàn bộ tính năng bán hàng trên website của bạn. Bao gồm ẩn giá, cart...",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "Bật",
+            "ui_off_text": "Tắt"
+        },
+        {
+            "key": "field_5c639aadf26b9",
+            "label": "Thay thế button \"add to cart\" thành link \"xem chi tiết\"",
+            "name": "add_to_cart_to_readmore",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "message": "Thay toàn bộ nút thêm vào giỏ hàng ở trang sản phẩm sang nút xem chi tiết",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "Bật",
+            "ui_off_text": "Tắt"
+        },
+        {
+            "key": "field_5c639b4e50908",
+            "label": "Chữ xem chi tiết",
+            "name": "add_to_cart_to_readmore_text",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Xem chi tiết",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options-woocommerce"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1550031733
+}

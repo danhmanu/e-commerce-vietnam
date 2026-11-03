@@ -1,0 +1,50 @@
+<?php get_header();?>
+	<div class="main_container col-md-9 col-sm-9 col-xs-12">
+		<main id="main" class="site-main" role="main">
+			<?php if ( function_exists('yoast_breadcrumb') ) {
+				yoast_breadcrumb('<div class="breadcrumb">','</div>');
+			} ?>
+			<div class="page_content">
+			<?php if(have_posts()):?>
+				<header>
+					<h1 class="title-page"><?php the_title();?></h1>					
+					<div class="post-info">
+                        <span class="thetime updated"><i class="fa fa-clock-o"></i> <span><?php echo get_the_date()?></span></span>
+                        <span class="post_count"><i class="fa fa-eye"></i> <span><?php echo do_shortcode('[post_view]')?></span></span>
+                    </div>
+				</header>
+				<?php do_action('before_after_single');?>
+				<div class="tinymce">
+					<?php while(have_posts()):the_post();?>
+						<?php the_content();?>
+					<?php endwhile;?>
+				</div>
+				<?php do_action('devvn_after_single');?>
+				<div class="post_navigation">
+				<?php 
+				the_post_navigation( array(
+					'next_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Bài tiếp', 'devvn' ) . '</span> <br>'.
+						'<span class="post-title">%title</span>',
+					'prev_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Bài trước', 'devvn' ) . '</span> <br>' .
+						'<span class="post-title">%title</span>',
+				) );
+				?>
+				</div>
+				<?php devvn_related_post();?>
+				<div class="comment_face">
+					<div class="section_cvp_title margin-b-15"><span><?php _e('Bình luận trên Facebook','devvn');?></span></div>
+					<div class="fb-comments" data-href="<?php the_permalink(); ?>" data-numposts="10" data-order-by="time" data-width="100%"></div>
+				</div>
+                <?php
+                /*if ( comments_open() || get_comments_number() ) :
+                    comments_template();
+                endif;*/
+                ?>
+			<?php else:?>
+				<?php get_template_part('content','none')?>
+			<?php endif;?>
+			</div>		
+		</main>
+	</div>
+	<?php get_sidebar('blog');?>
+<?php get_footer();?>

@@ -1,0 +1,35 @@
+<aside id="sidebar" class="sidebar col-md-3 col-sm-3 col-xs-12" role="complementary" itemscope itemtype="http://schema.org/WPSideBar">
+	<?php if (!function_exists('dynamic_sidebar') || !dynamic_sidebar('blog-sidebar')) : ?><?php endif; ?>
+	<?php if(is_single()):
+		global $post;
+		$chon_product_show_sidebar_single = get_field('chon_product_show_sidebar_single',$post->ID);
+		if($chon_product_show_sidebar_single):
+		?>
+		<div id="sanpham_option" class="widget widget_sanpham_option">
+			<div class="title-sidebar"><?php _e('Sản phẩm mới','devvn');?></div>
+			<div class="sanpham_option_box woocommerce">
+				<?php 
+				$query_args = array(
+					'posts_per_page' => -1,
+					'post_status'    => 'publish',
+					'post_type'      => 'product',
+					'no_found_rows'  => 1,
+					'post__in'		 =>	$chon_product_show_sidebar_single,
+					'orderby'		 => 'post__in'
+				);
+				$products = new WP_Query($query_args);
+				if ( $products->have_posts() ) {		
+					echo apply_filters( 'woocommerce_before_widget_product_list', '<ul class="product_list_widget">' );
+					while ( $products->have_posts() ) {
+						$products->the_post();
+						wc_get_template( 'content-widget-product.php', array( 'show_rating' => false ) );
+					}		
+					echo apply_filters( 'woocommerce_after_widget_product_list', '</ul>' );		
+				}		
+				wp_reset_postdata();
+				?>
+			</div>
+		</div>
+		<?php endif;?>
+	<?php endif;?>
+</aside>

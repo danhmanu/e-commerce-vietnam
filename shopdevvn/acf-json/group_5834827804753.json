@@ -1,0 +1,43 @@
+{
+    "key": "group_5834827804753",
+    "title": "Link r\u00fat g\u1ecdn",
+    "fields": [
+        {
+            "key": "field_5834828bc4934",
+            "label": "Link r\u00fat g\u1ecdn",
+            "name": "link_rut_gon",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "\/",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "short_url"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1479836336
+}

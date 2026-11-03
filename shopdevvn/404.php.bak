@@ -1,0 +1,10 @@
+<?php get_header();?>
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12 text-center" style="padding: 30px 0; color: red;">
+			<h1>404! Không tìm thấy trang bạn yêu cầu.</h1>
+            <p><a href="<?php echo home_url();?>" title="">Về trang chủ</a></p>
+		</div>
+	</div>
+</div>
+<?php get_footer();?>

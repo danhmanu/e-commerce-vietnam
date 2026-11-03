@@ -1,0 +1,1223 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: DevVN\n"
+"POT-Creation-Date: 2019-09-07 22:05+0700\n"
+"PO-Revision-Date: 2019-09-07 19:55+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: archive-videos.php:10 functions.php:456 inc/widget/devvn-videos.php:8
+#: inc/widget/devvn-videos.php:9 inc/widget/devvn-videos.php:10
+msgid "Videos"
+msgstr ""
+
+#: comments.php:18
+#, php-format
+msgctxt ""
+msgid "1 bình luận"
+msgid_plural "%1$s bình luận"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:25
+msgid "Bình luận bị đóng."
+msgstr ""
+
+#: comments.php:33
+msgid "&larr; trước"
+msgstr ""
+
+#: comments.php:34
+msgid "Tiếp &rarr;"
+msgstr ""
+
+#: comments.php:48
+msgid "Đăng nhập"
+msgstr ""
+
+#: comments.php:54
+msgid "Bình luận với tên:"
+msgstr ""
+
+#: comments.php:57
+msgid "Bình luận"
+msgstr ""
+
+#: comments.php:62
+msgid "Họ và tên"
+msgstr ""
+
+#: comments.php:65
+msgid "Email"
+msgstr ""
+
+#: comments.php:69
+msgid "Gửi"
+msgstr ""
+
+#: content-customnews.php:31 inc/layout/section-news_by_category.php:45
+msgid "Ngày cập nhật"
+msgstr ""
+
+#: content-none.php:2
+msgid "Không có dữ liệu!"
+msgstr ""
+
+#: content-none.php:9
+msgid "Không có kết quả nào phù hợp. Bạn hãy thử với từ khóa khác nha!"
+msgstr ""
+
+#: content-none.php:14
+msgid "Không tìm thấy nội dung bạn yêu cầu."
+msgstr ""
+
+#: content.php:20 inc/layout/section-customviewproducts.php:26
+#: inc/layout/section-news_by_category.php:26
+#: inc/layout/section-products-slider.php:27
+msgid "Xem thêm"
+msgstr ""
+
+#: functions.php:49
+msgid "Header menu"
+msgstr ""
+
+#: functions.php:50
+msgid "Footer menu"
+msgstr ""
+
+#: functions.php:51
+msgid "Top bar menu"
+msgstr ""
+
+#: functions.php:88
+msgid "Main Sidebar"
+msgstr ""
+
+#: functions.php:96
+msgid "News Sidebar"
+msgstr ""
+
+#: functions.php:104
+msgid "Shop Sidebar"
+msgstr ""
+
+#: functions.php:112
+msgid "Single shop sidebar"
+msgstr ""
+
+#: functions.php:120
+msgid "Footer 1"
+msgstr ""
+
+#: functions.php:128
+msgid "Footer 2"
+msgstr ""
+
+#: functions.php:136
+msgid "Footer 3"
+msgstr ""
+
+#: functions.php:144
+msgid "Footer 4"
+msgstr ""
+
+#: functions.php:152
+msgid "Footer Tags"
+msgstr ""
+
+#: functions.php:170
+#, php-format
+msgid "Trang %s"
+msgstr ""
+
+#: functions.php:247
+msgid "Trước"
+msgstr ""
+
+#: functions.php:248
+msgid "Tiếp"
+msgstr ""
+
+#: functions.php:386
+msgid "Tin tức"
+msgstr ""
+
+#: functions.php:511
+msgid "Có thể bạn quan tâm"
+msgstr ""
+
+#: functions.php:582
+msgid "Lên đầu trang"
+msgstr ""
+
+#: functions.php:605
+msgid "Sản phẩm nổi bật"
+msgstr ""
+
+#: functions.php:762
+#, php-format
+msgid "<p class=\"fn\">%s</p>"
+msgstr ""
+
+#: functions.php:772
+msgid "Sửa"
+msgstr ""
+
+#: functions.php:773
+#, php-format
+msgid "<a href=\"#comment-%d\" class=\"ngaythang\">%s</a>"
+msgstr ""
+
+#: header.php:171
+msgid "Đăng nhập | Đăng ký"
+msgstr ""
+
+#: header.php:209 templates/section-megamenu.php:3
+msgid "Danh mục sản phẩm"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:393
+#: inc/class-tgm-plugin-activation.php:920
+#: inc/class-tgm-plugin-activation.php:2626
+#: inc/class-tgm-plugin-activation.php:3673
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:394
+#: inc/class-tgm-plugin-activation.php:3252
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:395
+#: inc/class-tgm-plugin-activation.php:3045
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: inc/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1027
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1027
+#: inc/class-tgm-plugin-activation.php:1030
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1030
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1214
+#: inc/class-tgm-plugin-activation.php:3041
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: inc/class-tgm-plugin-activation.php:2075
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2366
+msgid "Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2369
+msgid "Recommended"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2388
+msgid "External Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2408
+msgid "Not Installed"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2414
+msgid "Active"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2423
+msgid "Requires Update"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2426
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: inc/class-tgm-plugin-activation.php:2435
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2481
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2489
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2493
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:2575
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2583
+msgid "Installed version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2603
+msgid "Available version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2640
+msgid "Plugin"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2641
+msgid "Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2642
+msgid "Type"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2646
+msgid "Version"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2647
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2696
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2701
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2707
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2810
+msgid "Install"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2816
+msgid "Update"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2819
+msgid "Activate"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3251
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3591
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3596
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3602
+#: inc/class-tgm-plugin-activation.php:3610
+msgid "Show Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3602
+#: inc/class-tgm-plugin-activation.php:3610
+msgid "Hide Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3608
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3610
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3611
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3613
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/copyright/copyright_svl.php:50
+msgid ""
+"Website được phát triển bởi <a href=\"http://devvn.com\" target=\"_blank"
+"\">DevVN Team!</a>"
+msgstr ""
+
+#: inc/copyright/copyright_svl.php:75
+msgid "Thủ thuật wordpress"
+msgstr ""
+
+#: inc/copyright/copyright_svl.php:76
+msgid "Thủ thuật Woocommerce"
+msgstr ""
+
+#: inc/copyright/copyright_svl.php:77
+msgid "My Website"
+msgstr ""
+
+#: inc/cpt-shorturl.php:6
+msgctxt "Post Type General Name"
+msgid "Short URL"
+msgstr ""
+
+#: inc/cpt-shorturl.php:7
+msgctxt "Post Type Singular Name"
+msgid "Short URL"
+msgstr ""
+
+#: inc/cpt-shorturl.php:8 inc/cpt-shorturl.php:9 inc/cpt-shorturl.php:10
+#: inc/cpt-shorturl.php:39
+msgid "Short URL"
+msgstr ""
+
+#: inc/cpt-shorturl.php:11 inc/widget/devvn-videos.php:11
+#: inc/widget/devvn-videos.php:65
+msgid "Parent Item:"
+msgstr ""
+
+#: inc/cpt-shorturl.php:12 inc/widget/devvn-videos.php:12
+#: inc/widget/devvn-videos.php:63
+msgid "All Items"
+msgstr ""
+
+#: inc/cpt-shorturl.php:13 inc/widget/devvn-videos.php:13
+#: inc/widget/devvn-videos.php:67
+msgid "Add New Item"
+msgstr ""
+
+#: inc/cpt-shorturl.php:14
+msgid "Add New"
+msgstr ""
+
+#: inc/cpt-shorturl.php:15 inc/widget/devvn-videos.php:15
+msgid "New Item"
+msgstr ""
+
+#: inc/cpt-shorturl.php:16 inc/widget/devvn-videos.php:16
+#: inc/widget/devvn-videos.php:68
+msgid "Edit Item"
+msgstr ""
+
+#: inc/cpt-shorturl.php:17 inc/widget/devvn-videos.php:17
+#: inc/widget/devvn-videos.php:69
+msgid "Update Item"
+msgstr ""
+
+#: inc/cpt-shorturl.php:18 inc/widget/devvn-videos.php:18
+#: inc/widget/devvn-videos.php:70
+msgid "View Item"
+msgstr ""
+
+#: inc/cpt-shorturl.php:19 inc/widget/devvn-videos.php:19
+msgid "Search Item"
+msgstr ""
+
+#: inc/cpt-shorturl.php:20 inc/widget/devvn-videos.php:20
+msgid "Not found"
+msgstr ""
+
+#: inc/cpt-shorturl.php:21 inc/widget/devvn-videos.php:21
+msgid "Not found in Trash"
+msgstr ""
+
+#: inc/cpt-shorturl.php:22 inc/widget/devvn-videos.php:22
+msgid "Featured Image"
+msgstr ""
+
+#: inc/cpt-shorturl.php:23 inc/widget/devvn-videos.php:23
+msgid "Set featured image"
+msgstr ""
+
+#: inc/cpt-shorturl.php:24 inc/widget/devvn-videos.php:24
+msgid "Remove featured image"
+msgstr ""
+
+#: inc/cpt-shorturl.php:25 inc/widget/devvn-videos.php:25
+msgid "Use as featured image"
+msgstr ""
+
+#: inc/cpt-shorturl.php:26 inc/widget/devvn-videos.php:26
+msgid "Insert into item"
+msgstr ""
+
+#: inc/cpt-shorturl.php:27 inc/widget/devvn-videos.php:27
+msgid "Uploaded to this item"
+msgstr ""
+
+#: inc/cpt-shorturl.php:28 inc/widget/devvn-videos.php:28
+#: inc/widget/devvn-videos.php:78
+msgid "Items list"
+msgstr ""
+
+#: inc/cpt-shorturl.php:29 inc/widget/devvn-videos.php:29
+#: inc/widget/devvn-videos.php:79
+msgid "Items list navigation"
+msgstr ""
+
+#: inc/cpt-shorturl.php:30 inc/widget/devvn-videos.php:30
+msgid "Filter items list"
+msgstr ""
+
+#: inc/cpt-shorturl.php:40 inc/widget/devvn-videos.php:34
+msgid "Post Type Description"
+msgstr ""
+
+#: inc/theme_customize/customizer.php:6
+msgid "Tùy chỉnh màu"
+msgstr ""
+
+#: inc/theme_customize/customizer.php:8
+msgid "Tùy chỉnh màu cho website của bạn"
+msgstr ""
+
+#: inc/theme_customize/customizer.php:22
+msgid "Áp dụng tùy chỉnh màu sắc"
+msgstr ""
+
+#: inc/widget/devvn-mostviewbaw.php:8
+msgid "The most viewed posts on your site"
+msgstr ""
+
+#: inc/widget/devvn-mostviewbaw.php:9
+msgid "[DevVN] Most Viewed Posts With Thumbnail"
+msgstr ""
+
+#: inc/widget/devvn-mostviewbaw.php:34
+msgid "Most Viewed Posts"
+msgstr ""
+
+#: inc/widget/devvn-mostviewbaw.php:131
+#: inc/widget/devvn-recentpostcustoms.php:120 inc/widget/devvn-videos.php:215
+msgid "Title:"
+msgstr ""
+
+#: inc/widget/devvn-mostviewbaw.php:137
+msgid "How many posts:"
+msgstr ""
+
+#: inc/widget/devvn-mostviewbaw.php:143
+msgid "Which top do you want:"
+msgstr ""
+
+#: inc/widget/devvn-mostviewbaw.php:154
+msgid "Top for this author only:"
+msgstr ""
+
+#: inc/widget/devvn-mostviewbaw.php:157
+msgid "All authors"
+msgstr ""
+
+#: inc/widget/devvn-mostviewbaw.php:169
+msgid "Date format"
+msgstr ""
+
+#: inc/widget/devvn-mostviewbaw.php:173
+msgid "If you leave blank the actual time will be used."
+msgstr ""
+
+#: inc/widget/devvn-mostviewbaw.php:176
+msgid "Show posts count:"
+msgstr ""
+
+#: inc/widget/devvn-mostviewbaw.php:181
+msgid "Order"
+msgstr ""
+
+#: inc/widget/devvn-mostviewbaw.php:184
+msgid "From most viewed to less viewed"
+msgstr ""
+
+#: inc/widget/devvn-mostviewbaw.php:185
+msgid "From less viewed to most viewed"
+msgstr ""
+
+#: inc/widget/devvn-recentpostcustoms.php:10
+msgid "Your site&#8217;s most recent Posts Custom view."
+msgstr ""
+
+#: inc/widget/devvn-recentpostcustoms.php:11
+msgid "[DevVN] Recent Posts Custom view"
+msgstr ""
+
+#: inc/widget/devvn-recentpostcustoms.php:35
+msgid "Recent Posts"
+msgstr ""
+
+#: inc/widget/devvn-recentpostcustoms.php:123
+#: inc/widget/devvn-tintucnoibat.php:56 inc/widget/devvn-videos.php:218
+msgid "Number of posts to show:"
+msgstr ""
+
+#: inc/widget/devvn-recentpostcustoms.php:127 inc/widget/devvn-videos.php:222
+msgid "ID Page to view:"
+msgstr ""
+
+#: inc/widget/devvn-recentpostcustoms.php:131 inc/widget/devvn-videos.php:226
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: inc/widget/devvn-recentpostcustoms.php:145 inc/widget/devvn-videos.php:240
+msgid "Display all page?"
+msgstr ""
+
+#: inc/widget/devvn-recentpostcustoms.php:148
+msgid "Display post date?"
+msgstr ""
+
+#: inc/widget/devvn-recentpostcustoms.php:151
+msgid "Display post thumbnail?"
+msgstr ""
+
+#: inc/widget/devvn-videos.php:6
+msgctxt "Post Type General Name"
+msgid "Videos"
+msgstr ""
+
+#: inc/widget/devvn-videos.php:7
+msgctxt "Post Type Singular Name"
+msgid "Video"
+msgstr ""
+
+#: inc/widget/devvn-videos.php:14
+msgid "Add Video"
+msgstr ""
+
+#: inc/widget/devvn-videos.php:33
+msgid "Video"
+msgstr ""
+
+#: inc/widget/devvn-videos.php:60
+msgctxt "Taxonomy General Name"
+msgid "Danh mục videos"
+msgstr ""
+
+#: inc/widget/devvn-videos.php:61
+msgctxt "Taxonomy Singular Name"
+msgid "Danh mục videos"
+msgstr ""
+
+#: inc/widget/devvn-videos.php:62
+msgid "Danh mục videos"
+msgstr ""
+
+#: inc/widget/devvn-videos.php:64
+msgid "Parent Item"
+msgstr ""
+
+#: inc/widget/devvn-videos.php:66
+msgid "New Item Name"
+msgstr ""
+
+#: inc/widget/devvn-videos.php:71
+msgid "Separate items with commas"
+msgstr ""
+
+#: inc/widget/devvn-videos.php:72
+msgid "Add or remove items"
+msgstr ""
+
+#: inc/widget/devvn-videos.php:73
+msgid "Choose from the most used"
+msgstr ""
+
+#: inc/widget/devvn-videos.php:74
+msgid "Popular Items"
+msgstr ""
+
+#: inc/widget/devvn-videos.php:75
+msgid "Search Items"
+msgstr ""
+
+#: inc/widget/devvn-videos.php:76
+msgid "Not Found"
+msgstr ""
+
+#: inc/widget/devvn-videos.php:77
+msgid "No items"
+msgstr ""
+
+#: inc/widget/devvn-videos.php:104
+msgid "Your site&#8217;s most recent Videos."
+msgstr ""
+
+#: inc/widget/devvn-videos.php:105
+msgid "[DevVN] Recent Videos"
+msgstr ""
+
+#: inc/widget/devvn-videos.php:129
+msgid "Recent Videos"
+msgstr ""
+
+#: inc/widget/devvn-videos.php:243
+msgid "Display video date?"
+msgstr ""
+
+#: inc/widget/devvn-videos.php:246
+msgid "Display video thumbnail?"
+msgstr ""
+
+#: inc/woocommerce_int/add_to_cart_popup/cart_popup_content_product.php:8
+#, php-format
+msgid "%d Sản phẩm đã được thêm vào giỏ hàng."
+msgstr ""
+
+#: inc/woocommerce_int/add_to_cart_popup/cart_popup_content_product.php:40
+#: inc/woocommerce_int/woo_int.php:24 inc/woocommerce_int/woo_int.php:149
+msgid "Giỏ hàng của bạn"
+msgstr ""
+
+#: inc/woocommerce_int/add_to_cart_popup/cart_popup_content_product.php:46
+msgid "Phí vận chuyển"
+msgstr ""
+
+#: inc/woocommerce_int/add_to_cart_popup/cart_popup_content_product.php:53
+msgid "Tổng"
+msgstr ""
+
+#: inc/woocommerce_int/add_to_cart_popup/cart_popup_content_product.php:67
+msgid "Mua thêm sản phẩm"
+msgstr ""
+
+#: inc/woocommerce_int/add_to_cart_popup/cart_popup_content_product.php:68
+msgid "Đặt hàng và thanh toán"
+msgstr ""
+
+#: inc/woocommerce_int/add_to_cart_popup/devvn-wacp-popup-related.php:19
+msgid "Một số sản phẩm có thể bạn quan tâm"
+msgstr ""
+
+#: inc/woocommerce_int/woo_int.php:23
+msgid "Hiển thị giỏ hàng"
+msgstr ""
+
+#: inc/woocommerce_int/woo_int.php:26 inc/woocommerce_int/woo_int.php:30
+#, php-format
+msgid "%d"
+msgid_plural "%d"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/woocommerce_int/woo_int.php:28
+msgid "Chưa có sản phẩm"
+msgstr ""
+
+#: inc/woocommerce_int/woo_int.php:80
+msgid "Mua hàng"
+msgstr ""
+
+#: inc/woocommerce_int/woo_int.php:115
+msgid "Mua sản phẩm này"
+msgstr ""
+
+#: inc/woocommerce_int/woo_int.php:146
+msgid "Giỏ hàng"
+msgstr ""
+
+#: inc/woocommerce_int/woo_int.php:150
+msgid "Thu nhỏ"
+msgstr ""
+
+#: inc/woocommerce_int/woo_int.php:360 inc/woocommerce_int/woo_int.php:362
+msgid "Miễn phí"
+msgstr ""
+
+#: inc/woocommerce_int/woo_int.php:422
+msgid "Thường được mua cùng"
+msgstr ""
+
+#: search.php:10
+#, php-format
+msgid "Tìm kiếm cho: %s"
+msgstr ""
+
+#: searchform.php:5
+msgid "Tìm kiếm tin tức"
+msgstr ""
+
+#: searchform.php:6 woocommerce/product-searchform.php:28
+msgid "Tìm kiếm"
+msgstr ""
+
+#: sidebar-blog.php:9
+msgid "Sản phẩm mới"
+msgstr ""
+
+#: single.php:26
+msgid "Bài tiếp"
+msgstr ""
+
+#: single.php:28
+msgid "Bài trước"
+msgstr ""
+
+#: single.php:35 woocommerce/content-single-product.php:158
+msgid "Bình luận trên Facebook"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:49
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:72
+msgid "No products in the cart."
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:80
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:85
+msgid "View Cart"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:86
+msgid "Checkout"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:29
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:51
+msgid "Your order"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:28
+msgid "Have a coupon?"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:28
+msgid "Click here to enter your code"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:36
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:40
+msgid "Áp dụng mã giảm giá"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:27
+msgid "Returning customer?"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:28
+msgid "Click here to login"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:35
+msgid ""
+"If you have shopped with us before, please enter your details in the boxes "
+"below. If you are a new customer, please proceed to the Billing &amp; "
+"Shipping section."
+msgstr ""
+
+#: woocommerce/content-single-product.php:94
+#: woocommerce/content-single-product.php:104
+#: woocommerce/single-product/tabs/additional-information.php:30
+msgid "Thông số kỹ thuật"
+msgstr ""
+
+#: woocommerce/content-single-product.php:152
+msgid "Đánh giá sản phẩm"
+msgstr ""
+
+#: woocommerce/emails/customer-completed-order.php:28
+#, php-format
+msgid ""
+"Hi there. Your recent order on %s has been completed. Your order details are "
+"shown below for your reference:"
+msgstr ""
+
+#: woocommerce/loop/rating.php:32
+#, php-format
+msgid "%s đánh giá"
+msgid_plural "%s đánh giá"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/loop/result-count.php:39
+#, php-format
+msgid "Danh sách sản phẩm"
+msgid_plural "Hiển thị %d sản phẩm"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/loop/result-count.php:41
+#, php-format
+msgctxt "%1$d = first, %2$d = last, %3$d = total"
+msgid "Danh sách sản phẩm"
+msgid_plural "Hiển thị %1$d&ndash;%2$d của %3$d sản phẩm"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/loop/sale-flash.php:16
+#: woocommerce/single-product/sale-flash.php:32
+msgid "Giá sốc"
+msgstr ""
+
+#: woocommerce/loop/sale-flash.php:18
+#: woocommerce/single-product/sale-flash.php:34
+msgid "Mới"
+msgstr ""
+
+#: woocommerce/loop/sale-flash.php:20
+#: woocommerce/single-product/sale-flash.php:36
+msgid "Khuyến mại"
+msgstr ""
+
+#: woocommerce/loop/sale-flash.php:29
+#: woocommerce/single-product/sale-flash.php:45
+msgid "Sale!"
+msgstr ""
+
+#: woocommerce/product-searchform.php:27
+msgctxt "placeholder"
+msgid "Tìm kiếm sản phẩm"
+msgstr ""
+
+#: woocommerce/product-searchform.php:27
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: woocommerce/single-product/product-image.php:54
+#: woocommerce/single-product/product-thumbnails.php:49
+msgid "Placeholder"
+msgstr ""
+
+#: woocommerce/single-product/tabs/additional-information.php:25
+msgid "Additional Information"
+msgstr ""
+
+#: woocommerce/single-product/tabs/description.php:25
+msgid "Mô tả sản phẩm"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "DevVN"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://devvn.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Theme by DevVn"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "LeVanToan"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://levantoan.com"
+msgstr ""

@@ -1,0 +1,19 @@
+<div class="page_header">
+	<h1 class="page-title"><?php _e( 'Không có dữ liệu!', 'devvn' ); ?></h1>
+</div>
+
+<div class="page-content">
+
+	<?php if ( is_search() ) : ?>
+
+		<p><?php _e( 'Không có kết quả nào phù hợp. Bạn hãy thử với từ khóa khác nha!', 'devvn' ); ?></p>
+		<?php get_search_form(); ?>
+
+	<?php else : ?>
+
+		<p><?php _e( 'Không tìm thấy nội dung bạn yêu cầu.', 'devvn' ); ?></p>
+		<?php get_search_form(); ?>
+
+	<?php endif; ?>
+
+</div><!-- .page-content -->

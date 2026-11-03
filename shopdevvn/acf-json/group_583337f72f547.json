@@ -1,0 +1,81 @@
+{
+    "key": "group_583337f72f547",
+    "title": "H\u1ec7 th\u1ed1ng \u0111\u1ea1i l\u00fd",
+    "fields": [
+        {
+            "key": "field_5833380a0bd20",
+            "label": "Danh s\u00e1ch \u0111\u1ea1i l\u00fd",
+            "name": "hethong_daily",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": "",
+            "max": "",
+            "layout": "table",
+            "button_label": "Th\u00eam \u0111\u1ea1i l\u00fd",
+            "sub_fields": [
+                {
+                    "key": "field_5833383a0bd21",
+                    "label": "Th\u00f4ng tin",
+                    "name": "hethong_daily_content",
+                    "type": "wysiwyg",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "tabs": "all",
+                    "toolbar": "full",
+                    "media_upload": 1
+                },
+                {
+                    "key": "field_583338440bd22",
+                    "label": "B\u1ea3n \u0111\u1ed3",
+                    "name": "hethong_daily_maps",
+                    "type": "google_map",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "center_lat": "",
+                    "center_lng": "",
+                    "zoom": "",
+                    "height": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "templates\/temp-hethongdaily.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1479751772
+}
